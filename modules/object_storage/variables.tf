@@ -21,9 +21,9 @@ variable "resource_name_prefix" {
   description = "Resource name prefix used for tagging and naming AWS resources"
 }
 
-variable "vault_license_filepath" {
+variable "vault_license" {
   type        = string
-  description = "Absolute filepath to location of Vault license file"
+  description = "license string"
 }
 
 variable "vault_license_name" {
